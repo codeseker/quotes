@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bg {
+  background-color: #3F4E4F;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px !important;
+  margin: 0 2%;
+}
+
+.fi{
+  font-style: italic;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .query {
+    /* padding: 5% 1%; */
+    height: 90%;
+    width: 100%;
+  }
+
+  .fs-18 {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  .pd {
+    padding: 0 5%;
+  }
+  .fs{
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .fs-18 {
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  .pd {
+    padding: 0 5%;
+  }
+  .fs{
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .pd {
+    padding: 0 5%;
+    /* color: black; */
+  }
+
+  .fs-18 {
+    font-size: 18px;
+    font-style: italic;
+  }
+  .fs{
+    font-size: 18px;
+    font-style: italic;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .pd {
+    padding: 0 5%;
+  }
+
+  .fs-18 {
+    font-size: 18px;
+    font-style: italic;
+  }
+  .fs{
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .pd {
+    padding: 0 5%;
+  }
+
+  .fs-18 {
+    font-size: 18px;
+    font-style: italic;
+  }
+  .fs{
+    font-size: 18px;
+    font-style: italic;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
